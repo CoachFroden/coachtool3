@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analyse – Coach</title>
+  <link rel="stylesheet" href="analyse.css" />
+</head>
+
+<body>
+
+  <main class="analyse-container">
+
+    <header class="analyse-header">
+      <button id="backBtn" class="back-btn">←</button>
+      <div>
+        <h1>AI Analyse</h1>
+        <p>Utviklingsanalyse per spiller</p>
+      </div>
+    </header>
+
+    <section class="analyse-controls">
+      <div>
+        <label>Spiller</label>
+        <select id="analysisPlayerSelect">
+          <option value="">Velg spiller</option>
+        </select>
+      </div>
+
+      <button id="runAnalysisBtn" class="primary-btn">
+        Kjør ny analyse
+      </button>
+    </section>
+
+    <section class="analysis-stats" id="analysisStats">
+      <div class="stat-box">Ingen data valgt</div>
+    </section>
+
+    <section class="analysis-result" id="analysisResult">
+      Velg en spiller for å se analyse.
+    </section>
+
+  </main>
+
+  <script type="module" src="analyse.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coach Dashboard</title>
+
+  <link rel="stylesheet" href="coach.css" />
+</head>
+<body>
+
+  <main class="coach-container">
+
+    <header class="coach-header">
+      <h1>Coach Dashboard</h1>
+      <p class="coach-sub">Intern trenerplattform</p>
+    </header>
+
+    <section class="coach-grid">
+
+      <div class="coach-card" onclick="go('refleksjon.html')">
+        <div class="coach-icon">📖</div>
+        <div class="coach-title">Refleksjoner</div>
+        <div class="coach-desc">Les spillernes ukerefleksjoner</div>
+      </div>
+
+      <div class="coach-card" onclick="go('tilbakemeldinger.html')">
+        <div class="coach-icon">✍️</div>
+        <div class="coach-title">Tilbakemeldinger</div>
+        <div class="coach-desc">Skriv og følg opp svar</div>
+      </div>
+
+      <div class="coach-card" onclick="go('analyse.html')">
+        <div class="coach-icon">🤖</div>
+        <div class="coach-title">Analyse</div>
+        <div class="coach-desc">AI-basert analyse per spiller</div>
+      </div>
+	  
+	  <div class="coach-card" onclick="go('coach-utviklingsplan.html')">
+  <div class="coach-icon">🎯</div>
+  <div class="coach-title">Utviklingsplan</div>
+  <div class="coach-desc">Opprett og rediger spillernes planer</div>
+</div>
+
+
+    </section>
+
+    <button id="logoutBtn" class="logout-btn">Logg ut</button>
+
+  </main>
+
+  <script type="module" src="coach.js"></script>
+</body>
+</html>

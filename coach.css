@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.coach-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.coach-header {
+  margin-bottom: 40px;
+}
+
+.coach-sub {
+  opacity: 0.7;
+  margin-top: 8px;
+}
+
+.coach-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-bottom: 50px;
+}
+
+.coach-card {
+  background: #1e293b;
+  border-radius: 16px;
+  padding: 30px 20px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+.coach-card:hover {
+  background: #334155;
+  transform: translateY(-4px);
+}
+
+.coach-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.coach-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.coach-desc {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.logout-btn {
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: #ef4444;
+  color: white;
+  font-size: 0.95rem;
+  transition: 0.2s ease;
+}
+
+.logout-btn:hover {
+  background: #dc2626;
+}
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.95rem;
+}

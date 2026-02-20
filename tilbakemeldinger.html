@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tilbakemeldinger</title>
+
+  <link rel="stylesheet" href="tilbakemeldinger.css" />
+</head>
+<body>
+
+  <main class="feedback-container">
+
+    <header class="feedback-header">
+      <h1>Tilbakemeldinger</h1>
+      <p class="feedback-sub">Generer og rediger tilbakemeldinger til spillere</p>
+    </header>
+
+    <section class="feedback-controls">
+
+  <select id="playerSelect">
+    <option value="">Velg spiller</option>
+  </select>
+
+  <select id="feedbackType">
+    <option value="weekly">Ukentlig fokus</option>
+    <option value="monthly">Månedlig rapport</option>
+  </select>
+
+  <button id="generateBtn">Generer AI-tilbakemelding</button>
+
+</section>
+
+    <section class="feedback-editor">
+      <textarea id="feedbackText" placeholder="AI-tilbakemelding vises her..."></textarea>
+
+      <div class="feedback-actions">
+        <button id="saveBtn">Lagre</button>
+        <button id="sendBtn">Marker som sendt</button>
+      </div>
+    </section>
+
+   <button id="backBtn" class="back-btn">Tilbake</button>
+
+  </main>
+
+  <script type="module" src="tilbakemeldinger.js"></script>
+</body>
+</html>

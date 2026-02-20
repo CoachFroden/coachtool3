@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utviklingsplan – Trener</title>
+
+  <link rel="stylesheet" href="coach-utviklingsplan.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <h1>Utviklingsplan</h1>
+    <button id="backBtn" class="back-btn">← Tilbake</button>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <label for="playerSelect"><strong>Velg spiller</strong></label>
+      <select id="playerSelect">
+        <option value="">Velg spiller...</option>
+      </select>
+    </section>
+
+    <section class="card">
+  <h2>📌 Hovedfokus</h2>
+  <select id="mainFocus">
+    <option value="">Velg utviklingsområde...</option>
+  </select>
+</section>
+
+<section class="card">
+  <h2>🧠 Utviklingsmål</h2>
+  <textarea id="utviklingsmaal" rows="3"></textarea>
+</section>
+
+    <section class="card">
+      <h2>🎯 Treningsmål</h2>
+      <textarea id="trainingGoal"></textarea>
+    </section>
+
+    <section class="card">
+      <h2>⚽ Atferd i kamp</h2>
+      <textarea id="matchBehaviour"></textarea>
+    </section>
+
+    <section class="card">
+      <h2>📈 Målepunkt</h2>
+      <textarea id="measurement"></textarea>
+    </section>
+
+    <section class="card">
+      <button id="savePlanBtn">Lagre utviklingsplan</button>
+    </section>
+
+  </main>
+
+  <script type="module" src="coach-utviklingsplan.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coach Login</title>
+  <link rel="stylesheet" href="coach.css" />
+</head>
+<body>
+
+  <main class="coach-container">
+
+    <h1>Coach Login</h1>
+    <p class="coach-sub">Kun for trener</p>
+
+    <div class="coach-card" style="max-width:400px;margin:30px auto;">
+
+      <input
+        type="email"
+        id="email"
+        placeholder="E-post"
+        class="login-input"
+      />
+
+      <input
+        type="password"
+        id="password"
+        placeholder="Passord"
+        class="login-input"
+      />
+
+      <button id="loginBtn" class="logout-btn" style="margin-top:15px;">
+        Logg inn
+      </button>
+
+      <p id="errorMsg" style="color:#ef4444;margin-top:15px;"></p>
+
+    </div>
+
+  </main>
+
+  <script type="module" src="login.js"></script>
+</body>
+</html>

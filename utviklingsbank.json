@@ -1,0 +1,809 @@
+{
+  "keeper": [
+    {
+      "id": "keeper_dominans_felt",
+      "title": "Dominans i eget felt",
+      "fase": ["forsvar"],
+      "utviklingsmaal": "Bli mer dominerende og trygg i eget straffefelt i innleggssituasjoner og luftdueller.",
+      "trening": [
+        "Jobbe med riktig startposisjon før innlegg slås.",
+        "Gå bestemt og offensivt ut i alle innleggssituasjoner.",
+        "Kommunisere tydelig med forsvar ved innlegg."
+      ],
+      "kamp": [
+        "Du fanger eller avklarer innlegg med autoritet.",
+        "Du vinner flere luftdueller i feltet.",
+        "Motstander skaper færre sjanser på innlegg."
+      ]
+    },
+    {
+      "id": "keeper_1v1",
+      "title": "1v1 og avslutningssituasjoner",
+      "fase": ["forsvar"],
+      "utviklingsmaal": "Forbedre evnen til å håndtere gjennombrudd og avslutninger fra kort hold.",
+      "trening": [
+        "Jobbe med riktig avstand og vinkler i 1v1.",
+        "Trene på hurtig ned i grunnstilling.",
+        "Øve på beslutning: gå ut eller bli stående."
+      ],
+      "kamp": [
+        "Du reduserer vinkelen effektivt i 1v1.",
+        "Du tvinger angriper til dårlig avslutning.",
+        "Du redder flere avslutninger fra kort hold."
+      ]
+    },
+    {
+      "id": "keeper_spill_med_beina",
+      "title": "Spill med beina i oppbygging",
+      "fase": ["angrep"],
+      "utviklingsmaal": "Bidra aktivt i lagets oppbyggingsspill og skape overtall bakfra.",
+      "trening": [
+        "Øve på mottak og pasning med få touch.",
+        "Se fremover før støttepasning.",
+        "Spille gjennom første pressledd."
+      ],
+      "kamp": [
+        "Du bryter motstanders press med presise pasninger.",
+        "Du mister sjelden ball sentralt.",
+        "Laget kommer kontrollert ut bakfra."
+      ]
+    },
+    {
+      "id": "keeper_igangsetting",
+      "title": "Rask igangsetting etter brudd",
+      "fase": ["overgang_til_angrep"],
+      "utviklingsmaal": "Starte angrep raskt og presist når laget vinner ball.",
+      "trening": [
+        "Sette i gang innen få sekunder etter redning.",
+        "Se etter gjennombruddspasning før støttepasning.",
+        "Variere mellom kast og pasning."
+      ],
+      "kamp": [
+        "Du skaper raske overganger før motstander er organisert.",
+        "Igangsettingene treffer spiller i bevegelse.",
+        "Laget får overtall i overgang."
+      ]
+    },
+    {
+      "id": "keeper_bakrom",
+      "title": "Kontroll på bakrom",
+      "fase": ["forsvar", "overgang_til_forsvar"],
+      "utviklingsmaal": "Ha kontroll på rommet bak forsvarslinja når laget står høyt.",
+      "trening": [
+        "Stå høyere når laget presser.",
+        "Være på tå hev når motstander vender opp.",
+        "Trene på rask utrusning på gjennomspill."
+      ],
+      "kamp": [
+        "Du bryter gjennomspill før angriper kommer alene.",
+        "Du fungerer som sweeper bak forsvaret.",
+        "Færre bakromssjanser imot."
+      ]
+    },
+    {
+      "id": "keeper_returer",
+      "title": "Reaksjon og returer",
+      "fase": ["forsvar"],
+      "utviklingsmaal": "Reagere raskere i andresituasjoner og kaos i feltet.",
+      "trening": [
+        "Følge alltid egen redning.",
+        "Trene på rask opp igjen etter fall.",
+        "Jobbe med fokus i situasjoner med flere avslutninger."
+      ],
+      "kamp": [
+        "Du er først på returer.",
+        "Du redder eller avklarer i andresituasjoner.",
+        "Du holder fokus i hektiske perioder."
+      ]
+    },
+    {
+      "id": "keeper_lederskap",
+      "title": "Kommunikasjon og organisering",
+      "fase": ["alle_faser"],
+      "utviklingsmaal": "Ta større ansvar for å organisere laget defensivt gjennom hele kampen.",
+      "trening": [
+        "Snakke kontinuerlig om avstand og press.",
+        "Gi tydelige beskjeder på dødball.",
+        "Øve på presis og rolig stemmebruk."
+      ],
+      "kamp": [
+        "Forsvarslinja holder bedre struktur.",
+        "Færre misforståelser bak.",
+        "Du fremstår som en tydelig leder."
+      ]
+    },
+    {
+      "id": "keeper_mental",
+      "title": "Mental stabilitet og robusthet",
+      "fase": ["alle_faser"],
+      "utviklingsmaal": "Beholde fokus og trygghet gjennom hele kampen, også etter feil.",
+      "trening": [
+        "Øve på rask nullstilling etter feil.",
+        "Holde konsentrasjon gjennom hele økten.",
+        "Jobbe med positivt kroppsspråk."
+      ],
+      "kamp": [
+        "Du lar ikke en feil påvirke neste situasjon.",
+        "Du holder stabil prestasjon gjennom hele kampen.",
+        "Du utstråler trygghet under press."
+      ]
+    }
+  ],
+
+  "back": [
+    {
+      "id": "back_defensiv_kontroll",
+      "title": "Defensiv kontroll på egen side",
+      "fase": ["forsvar"],
+      "utviklingsmaal": "Bli trygg og dominerende i forsvarsspillet på egen side av banen.",
+      "trening": [
+        "Gå tidlig og bestemt i press når motstander får ball på din side.",
+        "Stå riktig i 1v1 og styr motstander mot sidelinje eller svak fot.",
+        "Kommunisere tydelig med stopper om press og sikring."
+      ],
+      "kamp": [
+        "Motstander får sjelden vende opp på din side.",
+        "Du vinner flere direkte dueller.",
+        "Færre farlige innlegg fra din side."
+      ]
+    },
+    {
+      "id": "back_duellstyrke",
+      "title": "Robusthet i duellspill",
+      "fase": ["forsvar", "overgang_til_forsvar"],
+      "utviklingsmaal": "Bli mer robust og bestemt i nærdueller.",
+      "trening": [
+        "Gå bestemt inn i kroppskontakt.",
+        "Jobbe med timing i taklinger.",
+        "Trene på å holde angriper foran deg."
+      ],
+      "kamp": [
+        "Du vinner flere nærdueller.",
+        "Motstander blir presset bort fra farlig område.",
+        "Du fremstår mer fysisk robust."
+      ]
+    },
+{
+  "id": "back_innlegg_imot",
+  "title": "Hindre og håndtere innlegg imot",
+  "fase": ["forsvar"],
+  "utviklingsmaal": "Forbedre evnen til å stoppe eller blokkere innlegg fra kanten.",
+  "trening": [
+    "Holde riktig avstand i 1v1 før innlegg.",
+    "Jobbe aktivt med å blokkere innleggsfot.",
+    "Stå riktig i kroppen når motstander nærmer seg dødlinje."
+  ],
+  "kamp": [
+    "Du stopper flere innlegg før de når boksen.",
+    "Du blokkerer innlegg i farlige soner.",
+    "Motstander skaper færre sjanser fra din side."
+  ]
+},
+{
+  "id": "back_overgang_forsvar",
+  "title": "Rask reaksjon ved balltap",
+  "fase": ["overgang_til_forsvar"],
+  "utviklingsmaal": "Reagere raskt og riktig når laget mister ball på din side.",
+  "trening": [
+    "Sprint umiddelbart etter balltap.",
+    "Sikre rom bak deg raskt.",
+    "Koordinere press med kantspiller."
+  ],
+  "kamp": [
+    "Du stopper kontringer tidlig.",
+    "Motstander får sjelden utnytte rom bak deg.",
+    "Laget gjenvinner ball raskere på din side."
+  ]
+},
+{
+  "id": "back_overlapp_balanse",
+  "title": "Offensiv støtte med defensiv balanse",
+  "fase": ["angrep", "overgang_til_forsvar"],
+  "utviklingsmaal": "Bidra mer offensivt uten å miste defensiv kontroll.",
+  "trening": [
+    "Vurdere riktig tidspunkt for overlapp.",
+    "Skape bredde når kantspiller trekker innover.",
+    "Reagere raskt defensivt etter offensiv involvering."
+  ],
+  "kamp": [
+    "Du skaper overtall offensivt på din side.",
+    "Du kommer til innleggssituasjoner.",
+    "Du rekker hjem i tide etter angrep."
+  ]
+},
+{
+  "id": "back_innlegg_med_kvalitet",
+  "title": "Innlegg med kvalitet i fart",
+  "fase": ["angrep"],
+  "utviklingsmaal": "Forbedre kvaliteten på innleggene dine i bevegelse.",
+  "trening": [
+    "Slå innlegg etter maks to touch.",
+    "Se opp før du slår innlegg.",
+    "Variere mellom tidlig og sent innlegg."
+  ],
+  "kamp": [
+    "Innleggene dine treffer medspiller i farlig sone.",
+    "Du skaper målsjanser fra kanten.",
+    "Laget får flere avslutninger etter dine innlegg."
+  ]
+},
+{
+  "id": "back_spill_med_ball",
+  "title": "Trygge valg med ball under press",
+  "fase": ["angrep"],
+  "utviklingsmaal": "Ta bedre beslutninger med ball når du blir satt under press.",
+  "trening": [
+    "Se frem før mottak.",
+    "Vurdere føre frem ball vs. støttepasning.",
+    "Spille med få touch når tempo krever det."
+  ],
+  "kamp": [
+    "Du mister sjelden ball i farlige områder.",
+    "Du bryter første pressledd ved å føre frem.",
+    "Laget beholder bedre flyt i oppspillet."
+  ]
+},
+{
+  "id": "back_samarbeid_stopper",
+  "title": "Samspill og struktur i bakre ledd",
+  "fase": ["forsvar"],
+  "utviklingsmaal": "Forbedre samarbeid og struktur med stopper i defensiv fase.",
+  "trening": [
+    "Avklare hvem som støter og hvem som sikrer.",
+    "Holde riktig avstand i forsvarslinja.",
+    "Kommunisere tydelig i sideforsvar."
+  ],
+  "kamp": [
+    "Forsvaret holder samlet struktur.",
+    "Færre misforståelser mellom deg og stopper.",
+    "Motstander spiller sjeldnere gjennom din side."
+      ]
+    }
+  ],
+
+  "stopper": [
+    {
+      "id": "stopper_dominans_boks",
+      "title": "Dominans i egen boks",
+      "fase": ["forsvar"],
+      "utviklingsmaal": "Bli mer dominerende og trygg i eget straffefelt i dueller og innleggssituasjoner.",
+      "trening": [
+        "Jobbe med riktig plassering før innlegg.",
+        "Angripe ball bestemt i lufta.",
+        "Kommunisere tydelig i feltet."
+      ],
+      "kamp": [
+        "Du vinner flere hodedueller.",
+        "Du klarerer med retning.",
+        "Motstander skaper færre sjanser i boksen."
+      ]
+    },
+    {
+      "id": "stopper_bakromskontroll",
+      "title": "Kontroll på bakrom",
+      "fase": ["forsvar", "overgang_til_forsvar"],
+      "utviklingsmaal": "Ha bedre kontroll på rommet bak forsvarslinja.",
+      "trening": [
+        "Justere posisjon når ballfører vender opp.",
+        "Avtale tydelig med keeper om gjennomspill.",
+        "Reagere raskt på bakromspasninger."
+      ],
+      "kamp": [
+        "Du avverger gjennomspill sentralt.",
+        "Færre angripere kommer alene gjennom.",
+        "Forsvaret holder riktig dybde."
+      ]
+    },
+{
+  "id": "stopper_lederskap",
+  "title": "Lederskap og organisering",
+  "fase": ["forsvar"],
+  "utviklingsmaal": "Ta større ansvar for å organisere og styre forsvarslinja.",
+  "trening": [
+    "Snakke kontinuerlig om avstand og press.",
+    "Styres når laget skal falle av eller stå høyt.",
+    "Gi tydelige beskjeder på dødball."
+  ],
+  "kamp": [
+    "Forsvarslinja holder samlet struktur.",
+    "Færre misforståelser bak.",
+    "Du fremstår som en tydelig leder."
+  ]
+},
+{
+  "id": "stopper_press_mellomrom",
+  "title": "Press i mellomrom",
+  "fase": ["forsvar"],
+  "utviklingsmaal": "Være mer aggressiv når ball spilles inn sentralt i mellomrom.",
+  "trening": [
+    "Støt raskt når motstander mottar rettvendt.",
+    "Vurdere riktig tidspunkt for å bryte foran.",
+    "Sikre bak hverandre i stopperpar."
+  ],
+  "kamp": [
+    "Du bryter flere pasninger sentralt.",
+    "Motstander får mindre tid i mellomrom.",
+    "Angrep stoppes tidligere."
+  ]
+},
+{
+  "id": "stopper_duellstyrke",
+  "title": "Robusthet i duellspill",
+  "fase": ["forsvar", "overgang_til_forsvar"],
+  "utviklingsmaal": "Bli mer fysisk robust og bestemt i nærdueller.",
+  "trening": [
+    "Gå bestemt inn i kroppskontakt.",
+    "Jobbe med timing i taklinger.",
+    "Holde angriper unna farlig område."
+  ],
+  "kamp": [
+    "Du vinner flere nærdueller.",
+    "Angriper presses bort fra mål.",
+    "Du fremstår mer fysisk solid."
+  ]
+},
+{
+  "id": "stopper_oppbygging",
+  "title": "Trygg oppbyggingsfase",
+  "fase": ["angrep"],
+  "utviklingsmaal": "Starte angrep med ro og kvalitet fra bakre ledd.",
+  "trening": [
+    "Se fremover før mottak.",
+    "Spille gjennom første pressledd.",
+    "Beholde ro under press."
+  ],
+  "kamp": [
+    "Du mister sjelden ball sentralt.",
+    "Du bryter motstanders press.",
+    "Laget kommer kontrollert ut bakfra."
+  ]
+},
+{
+  "id": "stopper_overgang_angrep",
+  "title": "Rask fremdrift etter brudd",
+  "fase": ["overgang_til_angrep"],
+  "utviklingsmaal": "Flytte spillet raskt fremover når laget vinner ball.",
+  "trening": [
+    "Se etter fremoverpasning umiddelbart etter brudd.",
+    "Føre frem ball når rommet åpner seg.",
+    "Støtte sentral midtbane raskt."
+  ],
+  "kamp": [
+    "Du setter i gang raske overganger.",
+    "Laget utnytter ubalanse hos motstander.",
+    "Du bidrar til fremdrift i overgang."
+  ]
+},
+{
+  "id": "stopper_konsentrasjon",
+  "title": "Stabilitet og konsentrasjon",
+  "fase": ["alle_faser"],
+  "utviklingsmaal": "Holde høy konsentrasjon gjennom hele kampen.",
+  "trening": [
+    "Være på tå hev i alle øvelser.",
+    "Reagere raskt etter feil.",
+    "Opprettholde fokus når tempoet synker."
+  ],
+  "kamp": [
+    "Du unngår unødvendige feil.",
+    "Du holder struktur også sent i kampen.",
+    "Du fremstår stabil gjennom hele kampen."
+  ]
+}
+
+  ],
+"sentral_midtbane": [
+  {
+    "id": "midt_spillbarhet",
+    "title": "Spillbarhet og bevegelse",
+    "fase": ["angrep"],
+    "utviklingsmaal": "Bli mer tilgjengelig og spillbar i oppbyggingsfasen.",
+    "trening": [
+      "Bevege deg før pasning slås.",
+      "Skape riktig vinkel for ballfører.",
+      "Tilby deg både foran og bak pressledd."
+    ],
+    "kamp": [
+      "Du er ofte et pasningsalternativ.",
+      "Laget spiller lettere gjennom midten.",
+      "Du mottar ball i gunstige posisjoner."
+    ]
+  },
+  {
+    "id": "midt_tempo_kontroll",
+    "title": "Kontrollere tempo i spillet",
+    "fase": ["angrep"],
+    "utviklingsmaal": "Ta ansvar for tempo og rytme i lagets angrepsspill.",
+    "trening": [
+      "Variere mellom ett-touch og to-touch spill.",
+      "Vende spillet raskt når rom åpner seg.",
+      "Beholde ro under press."
+    ],
+    "kamp": [
+      "Du styrer tempo i ulike faser.",
+      "Laget får bedre flyt i angrepsspillet.",
+      "Du tar ansvar når laget trenger ro."
+    ]
+  },
+  {
+    "id": "midt_defensiv_posisjon",
+    "title": "Defensiv posisjonering",
+    "fase": ["forsvar"],
+    "utviklingsmaal": "Forbedre plassering og balanse i defensiv fase.",
+    "trening": [
+      "Holde riktig avstand til stopperne.",
+      "Tette rom sentralt foran egen boks.",
+      "Lese når du skal støte eller falle av."
+    ],
+    "kamp": [
+      "Motstander får mindre rom sentralt.",
+      "Du bryter flere pasninger.",
+      "Laget er mer kompakt defensivt."
+    ]
+  },
+  {
+    "id": "midt_gjenvinning",
+    "title": "Rask gjenvinning sentralt",
+    "fase": ["overgang_til_forsvar"],
+    "utviklingsmaal": "Reagere raskt og vinne ball tilbake etter balltap.",
+    "trening": [
+      "Gå umiddelbart i press etter balltap.",
+      "Stenge pasningslinjer sentralt.",
+      "Jobbe tett sammen med nærmeste medspiller."
+    ],
+    "kamp": [
+      "Du vinner flere baller sentralt.",
+      "Motstander får lite tid etter brudd.",
+      "Laget gjenvinner ball raskere."
+    ]
+  },
+  {
+    "id": "midt_fremdrift",
+    "title": "Fremdrift med ball",
+    "fase": ["overgang_til_angrep", "angrep"],
+    "utviklingsmaal": "Skape fremdrift gjennom pasning eller føring.",
+    "trening": [
+      "Se fremover før støttepasning.",
+      "Føre frem ball når rommet åpner seg.",
+      "Spille gjennom ledd når muligheten er der."
+    ],
+    "kamp": [
+      "Du setter fart i overgang.",
+      "Laget bryter motstanders press.",
+      "Du bidrar til fremdrift sentralt."
+    ]
+  },
+  {
+    "id": "midt_avslutning_dist",
+    "title": "Avslutninger fra distanse",
+    "fase": ["angrep"],
+    "utviklingsmaal": "Bidra med avslutninger fra sentrale områder utenfor boksen.",
+    "trening": [
+      "Avslutte når rom åpner seg foran boks.",
+      "Treffe ball med god balanse.",
+      "Følge opp returer."
+    ],
+    "kamp": [
+      "Du kommer til avslutninger fra distanse.",
+      "Du skaper returer i farlig sone.",
+      "Du truer mål fra sentral posisjon."
+    ]
+  },
+  {
+    "id": "midt_duellstyrke",
+    "title": "Robusthet i sentrale dueller",
+    "fase": ["forsvar", "overgang_til_forsvar"],
+    "utviklingsmaal": "Bli mer robust og bestemt i sentrale nærdueller.",
+    "trening": [
+      "Gå bestemt inn i kroppskontakt.",
+      "Jobbe med timing i taklinger.",
+      "Vinne andreballer."
+    ],
+    "kamp": [
+      "Du vinner flere sentrale dueller.",
+      "Laget beholder flere andreballer.",
+      "Du står imot fysisk press."
+    ]
+  },
+  {
+    "id": "midt_lederskap",
+    "title": "Ansvar og kommunikasjon sentralt",
+    "fase": ["alle_faser"],
+    "utviklingsmaal": "Ta større ansvar for kommunikasjon og struktur sentralt i banen.",
+    "trening": [
+      "Snakke kontinuerlig om press og balanse.",
+      "Organisere laget når tempoet faller.",
+      "Vise tydelig kroppsspråk."
+    ],
+    "kamp": [
+      "Du styrer laget sentralt.",
+      "Laget fremstår mer strukturert.",
+      "Du tar ansvar når laget trenger det."
+    ]
+  }
+],
+"kant": [
+  {
+    "id": "kant_1v1_offensiv",
+    "title": "Skape overtall i 1v1",
+    "fase": ["angrep"],
+    "utviklingsmaal": "Utfordre og slå motstander i 1v1-situasjoner på kanten.",
+    "trening": [
+      "Utfordre direkte når du er rettvendt.",
+      "Variere mellom å gå på utside og innside.",
+      "Bruke tempoendring for å passere motstander."
+    ],
+    "kamp": [
+      "Du utfordrer aktivt i 1v1.",
+      "Du skaper overtall på din side.",
+      "Du bryter ned motstanders struktur."
+    ]
+  },
+  {
+    "id": "kant_innlegg",
+    "title": "Innlegg og siste tredjedel",
+    "fase": ["angrep"],
+    "utviklingsmaal": "Forbedre kvaliteten på innlegg og valg i siste tredjedel.",
+    "trening": [
+      "Slå innlegg med presisjon i fart.",
+      "Se opp før du slår inn.",
+      "Variere mellom lavt og høyt innlegg."
+    ],
+    "kamp": [
+      "Innleggene dine treffer medspiller i farlig sone.",
+      "Du skaper målsjanser fra kanten.",
+      "Du bidrar til flere avslutninger."
+    ]
+  },
+  {
+    "id": "kant_inn_i_bane",
+    "title": "Trekke inn og avslutte",
+    "fase": ["angrep"],
+    "utviklingsmaal": "Skape trussel ved å trekke inn i banen og avslutte.",
+    "trening": [
+      "Kutte inn fra kant og avslutte.",
+      "Samarbeide med back i overlapp.",
+      "Finne rom mellom back og stopper."
+    ],
+    "kamp": [
+      "Du kommer til avslutninger fra skrå vinkel.",
+      "Du utfordrer rom sentralt.",
+      "Du bidrar med måltrussel."
+    ]
+  },
+  {
+    "id": "kant_defensiv_jobbing",
+    "title": "Defensiv innsats på kant",
+    "fase": ["forsvar"],
+    "utviklingsmaal": "Ta større ansvar i defensiv fase på egen side.",
+    "trening": [
+      "Følge motstanders back hele veien hjem.",
+      "Samarbeide tett med egen back.",
+      "Stenge pasningslinjer utover."
+    ],
+    "kamp": [
+      "Motstander får mindre rom på din side.",
+      "Du bidrar i gjenvinning.",
+      "Du hjelper back i dueller."
+    ]
+  },
+  {
+    "id": "kant_overgang_angrep",
+    "title": "Rask i overgang til angrep",
+    "fase": ["overgang_til_angrep"],
+    "utviklingsmaal": "Utnytte rom raskt når laget vinner ball.",
+    "trening": [
+      "Starte løp umiddelbart ved brudd.",
+      "Søke bakrom bak motstanders back.",
+      "Be om ball i fart."
+    ],
+    "kamp": [
+      "Du truer bakrom i overgang.",
+      "Du skaper ubalanse hos motstander.",
+      "Du kommer til gjennombrudd."
+    ]
+  },
+  {
+    "id": "kant_overgang_forsvar",
+    "title": "Rask reaksjon ved balltap",
+    "fase": ["overgang_til_forsvar"],
+    "utviklingsmaal": "Reagere raskt defensivt når laget mister ball.",
+    "trening": [
+      "Gå umiddelbart i press etter balltap.",
+      "Sprint hjem hvis press brytes.",
+      "Stenge pasningslinje innover."
+    ],
+    "kamp": [
+      "Du stopper kontringer tidlig.",
+      "Motstander får mindre rom bak deg.",
+      "Laget gjenvinner ball raskere."
+    ]
+  },
+  {
+    "id": "kant_bevegelse_boks",
+    "title": "Bevegelse inn i boks",
+    "fase": ["angrep"],
+    "utviklingsmaal": "Angripe bakre stolpe og farlige rom i boksen.",
+    "trening": [
+      "Time løp mot bakre stolpe.",
+      "Være klar på returer.",
+      "Angripe rom når motsatt kant slår innlegg."
+    ],
+    "kamp": [
+      "Du kommer til avslutninger i boks.",
+      "Du scorer eller skaper returer.",
+      "Du er en trussel bakre stolpe."
+    ]
+  },
+  {
+    "id": "kant_mentalitet",
+    "title": "Offensiv mentalitet og mot",
+    "fase": ["alle_faser"],
+    "utviklingsmaal": "Vise mot og initiativ gjennom hele kampen.",
+    "trening": [
+      "Be om ball selv etter feil.",
+      "Fortsette å utfordre selv om du mislykkes.",
+      "Vise positivt kroppsspråk."
+    ],
+    "kamp": [
+      "Du tar initiativ i avgjørende situasjoner.",
+      "Du lar ikke feil stoppe deg.",
+      "Du fremstår modig og offensiv."
+    ]
+  }
+],
+"spiss": [
+  {
+    "id": "spiss_bevegelse_bakrom",
+    "title": "Bevegelse i bakrom",
+    "fase": ["angrep", "overgang_til_angrep"],
+    "utviklingsmaal": "Skape flere gjennombrudd ved å true rom bak motstanders forsvar.",
+    "trening": [
+      "Time løp i bakrom når ballfører vender opp.",
+      "Variere mellom å gå i bakrom og møte.",
+      "Starte løp før forsvarer rekker å justere."
+    ],
+    "kamp": [
+      "Du truer bakrom flere ganger i kampen.",
+      "Du kommer til avslutninger etter gjennomspill.",
+      "Motstander presses dypere."
+    ]
+  },
+  {
+    "id": "spiss_avslutninger",
+    "title": "Effektivitet i avslutninger",
+    "fase": ["angrep"],
+    "utviklingsmaal": "Forbedre presisjon og ro i avslutningssituasjoner.",
+    "trening": [
+      "Avslutte raskt med få touch i boks.",
+      "Trene på avslutninger med begge bein.",
+      "Holde ro i pressede situasjoner."
+    ],
+    "kamp": [
+      "Du treffer oftere innenfor målrammen.",
+      "Du scorer på større andel sjanser.",
+      "Du avslutter raskere i boksen."
+    ]
+  },
+  {
+    "id": "spiss_oppspillspunkt",
+    "title": "Være et trygt oppspillspunkt",
+    "fase": ["angrep"],
+    "utviklingsmaal": "Holde på ball og involvere medspillere i angrep.",
+    "trening": [
+      "Møte ball og skjerme mot forsvarer.",
+      "Spille videre på ett eller to touch.",
+      "Skape rom for medspillere gjennom bevegelse."
+    ],
+    "kamp": [
+      "Du holder på ball sentralt.",
+      "Laget får samlet seg i angrep.",
+      "Du involverer kant og midtbane."
+    ]
+  },
+  {
+    "id": "spiss_pressarbeid",
+    "title": "Første forsvarer i press",
+    "fase": ["forsvar", "overgang_til_forsvar"],
+    "utviklingsmaal": "Starte press og styre motstanders oppspill.",
+    "trening": [
+      "Styres press mot ønsket side.",
+      "Jobbe med riktig pressvinkel.",
+      "Koordinere press med kantspillere."
+    ],
+    "kamp": [
+      "Du setter retning på motstanders oppspill.",
+      "Laget vinner ball høyere i banen.",
+      "Du presser med riktig timing."
+    ]
+  },
+  {
+    "id": "spiss_bevegelse_boks",
+    "title": "Bevegelse i boksen",
+    "fase": ["angrep"],
+    "utviklingsmaal": "Skape bedre posisjonering i boksen ved innlegg.",
+    "trening": [
+      "Time løp mot første og bakre stolpe.",
+      "Skape avstand til forsvarer før innlegg.",
+      "Være klar på returer."
+    ],
+    "kamp": [
+      "Du kommer først på innlegg.",
+      "Du skaper flere avslutninger i boks.",
+      "Du scorer eller skaper returer."
+    ]
+  },
+  {
+    "id": "spiss_overgang_angrep",
+    "title": "Rask omstilling etter brudd",
+    "fase": ["overgang_til_angrep"],
+    "utviklingsmaal": "Utnytte ubalanse raskt når laget vinner ball.",
+    "trening": [
+      "Starte løp umiddelbart ved brudd.",
+      "Søke rom mellom stopper og back.",
+      "Be om ball i fart."
+    ],
+    "kamp": [
+      "Du skaper farlige kontringer.",
+      "Du utfordrer bakrom i overgang.",
+      "Du setter fart i angrepet."
+    ]
+  },
+  {
+    "id": "spiss_duellstyrke",
+    "title": "Robusthet i sentrale dueller",
+    "fase": ["angrep", "overgang_til_forsvar"],
+    "utviklingsmaal": "Bli sterkere i dueller og andreballer sentralt.",
+    "trening": [
+      "Gå bestemt inn i kroppskontakt.",
+      "Jobbe med timing i luftdueller.",
+      "Vinne og sikre andreballer."
+    ],
+    "kamp": [
+      "Du vinner flere dueller mot stopper.",
+      "Laget beholder flere andreballer.",
+      "Du fremstår mer fysisk robust."
+    ]
+  },
+  {
+    "id": "spiss_mentalitet",
+    "title": "Målrettet mentalitet",
+    "fase": ["alle_faser"],
+    "utviklingsmaal": "Vise besluttsomhet og tro på egne avslutninger gjennom hele kampen.",
+    "trening": [
+      "Fortsette å true mål selv etter bom.",
+      "Be om ball i avgjørende situasjoner.",
+      "Vise positivt kroppsspråk."
+    ],
+    "kamp": [
+      "Du tar ansvar i avgjørende situasjoner.",
+      "Du lar ikke feil påvirke neste aksjon.",
+      "Du fremstår sulten og målrettet."
+    ]
+  }
+],
+"felles_utvikling": [
+  {
+    "id": "felles_beslutningskvalitet",
+    "title": "Beslutningskvalitet med ball",
+    "fase": ["alle_faser"],
+    "utviklingsmaal": "Ta raskere og riktigere valg med ball gjennom bedre orientering og vurdering av alternativer.",
+    "trening": [
+      "Scanne før mottak for å vite neste handling.",
+      "Spille innen to touch hvis fremoverpasning er åpen.",
+      "Drible kun når du kan passere eller skape overtall.",
+      "Unngå å føre ball på tvers uten fremdrift."
+    ],
+    "kamp": [
+      "Du spiller raskere når alternativ er åpent.",
+      "Du reduserer unødvendige balltap.",
+      "Laget holder høyere tempo i angrepsspillet.",
+      "Dribling brukes for å skape fordel – ikke for å holde på ball."
+    ]
+  }
+]
+
+
+
+
+}

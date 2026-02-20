@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Refleksjoner – Coach</title>
+  <link rel="stylesheet" href="refleksjon.css" />
+</head>
+
+<body>
+
+  <main class="ref-container">
+
+    <section class="ref-card">
+
+    <header class="ref-header">
+
+  <div class="ref-header-left">
+    <button class="back-btn" onclick="goBack()">←</button>
+
+    <div>
+      <h1>Refleksjon <span class="dot"></span></h1>
+      <p class="ref-sub">
+        Les spillernes ukerefleksjoner (kun for trener).
+      </p>
+    </div>
+  </div>
+
+
+        <div class="ref-approval">
+          <button id="approvalToggle" class="ref-btn small">
+            Ventende godkjenninger (0)
+          </button>
+          <div id="approvalDropdown" class="ref-approval-dropdown"></div>
+        </div>
+      </header>
+
+      <div class="ref-controls">
+        <div>
+          <label>Spiller</label>
+          <select id="refPlayerSelect"></select>
+        </div>
+
+        <div>
+          <label>Uke</label>
+          <select id="refWeekSelect"></select>
+        </div>
+      </div>
+
+      <div id="refList" class="ref-list">
+        Velg en spiller for å se refleksjoner.
+      </div>
+
+    </section>
+
+  </main>
+
+  <script type="module" src="refleksjon.js"></script>
+
+</body>
+</html>
