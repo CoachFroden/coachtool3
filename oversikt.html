@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oversikt</title>
+  <link rel="stylesheet" href="oversikt.css" />
+</head>
+
+<body>
+  <main class="wrap">
+<header class="top">
+  <div class="topLeft">
+    <h1>Oversikt</h1>
+    <div class="meta">
+      <span id="userLine"></span>
+    </div>
+  </div>
+
+</header>
+
+    <section class="grid">
+      <div class="card">
+  <div class="cardHeader">
+  <h2>Oversikt</h2>
+  <button id="logoutBtn" class="logoutBtnSmall">Logg ut</button>
+</div>
+  <p class="hint">Velg hva du vil se.</p>
+
+  <!-- Førstevalg -->
+  <div class="segmented" role="tablist" aria-label="Velg visning">
+    <button id="tabPlayers" class="segBtn isActive" type="button" role="tab" aria-selected="true">Spillere</button>
+    <button id="tabMatch" class="segBtn" type="button" role="tab" aria-selected="false">Kamp</button>
+  </div>
+
+  <!-- Spillere -->
+  <div id="playersPanel" class="panel">
+    <p class="hint">Velg en spiller for å hente siste refleksjoner.</p>
+    <select id="playersSelect" class="playerSelect">
+      <option value="">Laster spillere…</option>
+    </select>
+  </div>
+
+  <!-- Kamp -->
+  <div id="matchPanel" class="panel isHidden">
+    <p class="hint">Velg hva du vil se for kamper.</p>
+    <select id="matchSelect" class="playerSelect">
+      <option value="">Velg…</option>
+      <option value="played">Spilte kamper</option>
+      <option value="upcoming">Kommende kamper</option>
+      <option value="stats">Statistikk</option>
+    </select>
+  </div>
+</div>
+
+      <div class="card isHidden" id="rightPanel">
+  <h2 id="rightTitle">Refleksjoner</h2>
+  <p id="selectedPlayer" class="hint">Velg en spiller.</p>
+  <div id="entries" class="list"></div>
+</div>
+    </section>
+
+    <p id="errorMsg" class="error"></p>
+  </main>
+
+  <script type="module" src="oversikt.js"></script>
+</body>
+</html>

@@ -3,25 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Coach Login</title>
+  <title>Trener</title>
   <link rel="stylesheet" href="login.css" />
-  
+
   <link rel="manifest" href="manifest.json" />
-
-<meta name="theme-color" content="#0f172a" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-<meta name="apple-mobile-web-app-title" content="Coach" />
-
-<link rel="apple-touch-icon" href="icon-192.png" />
-
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Coach" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
 </head>
-<body>
 
+<body>
   <main class="coach-container">
 
-    <h1>Coach Login</h1>
-    <p class="coach-sub">Kun for trener</p>
+    <h1>Trener</h1>
+    <p class="coach-sub">Logg inn eller registrer deg</p>
 
     <div class="coach-card" style="max-width:400px;margin:30px auto;">
 
@@ -30,6 +27,7 @@
         id="email"
         placeholder="E-post"
         class="login-input"
+        autocomplete="email"
       />
 
       <input
@@ -37,13 +35,32 @@
         id="password"
         placeholder="Passord"
         class="login-input"
+        autocomplete="current-password"
+      />
+
+      <!-- Kun brukt ved registrering -->
+      <input
+        type="password"
+        id="password2"
+        placeholder="Gjenta passord (kun ved registrering)"
+        class="login-input"
+        autocomplete="new-password"
       />
 
       <button id="loginBtn" class="logout-btn" style="margin-top:15px;">
         Logg inn
       </button>
 
+      <button id="registerBtn" class="logout-btn" style="margin-top:10px; opacity:.9;">
+        Registrer deg
+      </button>
+
+      <button id="resendVerifyBtn" class="logout-btn" style="margin-top:10px; display:none; opacity:.85;">
+        Send verifiseringsmail på nytt
+      </button>
+
       <p id="errorMsg" style="color:#ef4444;margin-top:15px;"></p>
+      <p id="infoMsg" style="color:#22c55e;margin-top:10px;"></p>
 
     </div>
 

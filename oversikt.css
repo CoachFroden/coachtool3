@@ -1,0 +1,314 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #0b1220;
+  color: #e5e7eb;
+}
+
+.wrap { max-width: 1100px; margin: 0 auto; padding: 22px; }
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+h1 { margin: 0; font-size: 28px; }
+.meta { margin-top: 6px; opacity: .85; display: flex; gap: 10px; flex-wrap: wrap; }
+.meta span { background: rgba(255,255,255,.06); padding: 6px 10px; border-radius: 999px; font-size: 13px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  align-items: start;
+}
+
+.card {
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+h2 { margin: 0 0 8px; font-size: 18px; }
+.hint { margin: 0 0 12px; opacity: .75; font-size: 13px; line-height: 1.35; }
+
+.list { display: flex; flex-direction: column; gap: 8px; }
+
+.item {
+  background: rgba(0,0,0,.18);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.item button {
+  all: unset;
+  cursor: pointer;
+  width: 100%;
+}
+
+.itemTitle { font-weight: 650; }
+.itemSub { opacity: .75; font-size: 12px; margin-top: 2px; }
+
+.btn {
+  background: #2563eb;
+  color: white;
+  border: 0;
+  border-radius: 12px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 650;
+}
+.btn:hover { opacity: .92; }
+
+.error { margin-top: 14px; color: #f87171; }
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+}
+
+.playerSelect {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.15);
+  background: rgba(0,0,0,.25);
+  color: #e5e7eb;
+  font-size: 15px;
+}
+
+.playerSelect:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.segmented{
+  display:flex;
+  gap:10px;
+  margin: 10px 0 12px;
+}
+
+.segBtn{
+  flex:1;
+  padding:10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(0,0,0,.18);
+  color:#e5e7eb;
+  cursor:pointer;
+  font-weight: 650;
+}
+
+.segBtn.isActive{
+  background:#2563eb;
+  border-color:#2563eb;
+  color:white;
+}
+
+.panel{ margin-top: 10px; }
+.isHidden{ display:none; }
+
+.matchArea{
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.08);
+  background: rgba(0,0,0,.12);
+  min-height: 56px;
+  opacity: .95;
+}
+
+.statsTable {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 0.9rem;
+}
+
+.statsTable th,
+.statsTable td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+   font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.statsTable th:first-child,
+.statsTable td:first-child {
+  text-align: left;
+  width: 30%;
+}
+
+/* Penere select: mer "app"-følelse */
+.playerSelect {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  width: 100%;
+  padding: 10px 44px 10px 12px; /* ekstra høyre-padding for pil */
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.20);
+  color: #e5e7eb;
+  font-size: 14px;
+  line-height: 1.1;
+
+  /* custom pil */
+  background-image:
+    linear-gradient(45deg, transparent 50%, rgba(229,231,235,.9) 50%),
+    linear-gradient(135deg, rgba(229,231,235,.9) 50%, transparent 50%);
+  background-position:
+    calc(100% - 18px) 50%,
+    calc(100% - 12px) 50%;
+  background-size: 7px 7px, 7px 7px;
+  background-repeat: no-repeat;
+
+  cursor: pointer;
+}
+
+.playerSelect:hover {
+  border-color: rgba(255,255,255,.25);
+}
+
+.playerSelect:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, .25);
+}
+
+/* Litt spacing for stats-dropdownen */
+.statsSelect {
+  margin: 6px 0 10px;
+}
+
+/* (Valgfritt) gjør options litt ryddigere i noen browsere */
+.playerSelect option {
+  color: #111827;
+}
+
+.planList {
+  margin: 6px 0 0 18px;
+  padding: 0;
+}
+
+.planList li {
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+.tabRow{
+  display:flex;
+  gap:10px;
+  margin-top:8px;
+}
+
+.tabBtn{
+  flex:1;
+  border:1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.06);
+  color:#fff;
+  padding:12px 12px;
+  border-radius:12px;
+  font-weight:700;
+  cursor:pointer;
+}
+
+.tabBtn:hover{
+  background: rgba(255,255,255,0.10);
+}
+
+.tabBtnActive{
+  background: rgba(37,99,235,0.95); /* blå */
+  border-color: rgba(37,99,235,0.95);
+}
+
+.tabRow{
+  display:flex;
+  gap:10px;
+  margin-top:8px;
+  background: transparent;   /* viktig: ikke “pille” */
+  padding: 0;                /* viktig */
+  border: 0;                 /* viktig */
+}
+
+.tabBtn{
+  flex:1;
+  border:1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.05);
+  color:#fff;
+  padding:12px 12px;
+  border-radius:12px;
+  font-weight:700;
+  cursor:pointer;
+  text-align:center;
+}
+
+.tabBtn:hover{
+  background: rgba(255,255,255,0.10);
+}
+
+.tabBtnActive{
+  background: rgba(37,99,235,0.95);
+  border-color: rgba(37,99,235,0.95);
+}
+
+/* ===============================
+   LOGOUT BUTTON
+================================ */
+
+.logoutBtn {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 5px 5px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  align-items: right;
+}
+
+.logoutBtn:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.topLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.topRight {
+  display: flex;
+  align-items: center;
+}
+
+/* Card header layout */
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* Mindre logout-knapp */
+.logoutBtnSmall {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  color: #e5e7eb;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.logoutBtnSmall:hover {
+  background: rgba(255,255,255,0.12);
+}
