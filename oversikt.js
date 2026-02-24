@@ -532,7 +532,7 @@ async function loadPlayedMatches(coachUid) {
   selectedPlayerEl.textContent = "Spilte kamper";
 entriesEl.innerHTML = `
   <div class="item">
-    <div style="display:flex; gap:22px; padding:4px 2px; margin-bottom:12px;">
+    <div class="statsTypeRow">
       <button class="typeFilterBtn active" data-type="all">Alle</button>
       <button class="typeFilterBtn" data-type="league">Seriekamp</button>
       <button class="typeFilterBtn" data-type="cup">Cupkamp</button>

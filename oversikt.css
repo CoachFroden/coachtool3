@@ -504,11 +504,6 @@ h2 { margin: 0 0 8px; font-size: 18px; }
    MOBIL FIX – OVERSIKT
 ========================= */
 
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-}
-
 .wrap {
   max-width: 100%;
   padding: 16px;
@@ -601,4 +596,13 @@ html, body {
   .wrap, .card, .item {
     max-width: 100%;
   }
+}
+
+@media (max-width: 520px) {
+
+  .statsTypeRow {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
 }
